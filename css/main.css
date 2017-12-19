@@ -1,5 +1,7 @@
 @import url("https://use.typekit.net/ztf6lng.css");
-
+/**{
+    outline: 1px solid rgba(0,255,0,0.3);
+}*/
 body{
   background-color: #BE3D3D;
 //background-color: red;
@@ -27,11 +29,12 @@ body {
 .tree {
 	width: calc(420px / 1.1);
 	height: calc(526px / 1.1);
+    
 	position: fixed;
 	bottom: 60px;
 	left: 50%;
 	margin-left: calc((420px / 1.1) / -2);
-	background-image: url(http://romaingranai.be/zeb/tree.svg);
+	background: url(http://romaingranai.be/zeb/tree.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -96,6 +99,7 @@ footer {
 	margin-top: 30px;
 	font-family: brandon-grotesque, sans-serif;
 	letter-spacing: -0.1em;
+    font-size: 30px;
 }
 
 .footer--text span {
